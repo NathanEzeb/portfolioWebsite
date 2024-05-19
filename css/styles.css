@@ -1,0 +1,370 @@
+#name{
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    /*margin: 10px;*/
+     background: linear-gradient(to bottom right, rgb(137, 213, 238), rgb(196, 71, 196)) no-repeat;
+    font-family: 'Proxima Nova', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 1px;
+    padding-bottom: 15px;
+}
+
+#databaseAppBody {
+    background: linear-gradient(to bottom right, rgb(137, 213, 238), rgb(196, 71, 196)) no-repeat;
+    font-family: 'Proxima Nova', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 1.3; /* Change the line height */
+}
+
+#title{
+    margin-top: -16px;
+    font-size: 17px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillType{
+    font-size: 18px;
+}
+/*
+.container .box:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.container .box:nth-last-child(4) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+*/
+.firstBox
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.lastBox
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    align-items: center; /* Add this line */
+    justify-content: center; /* Add this line */
+}
+
+.lastBox ul{
+    display: grid;
+    align-items: center; /* Add this line */
+    justify-content: center;
+}
+
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid lightgrey;
+    display: /*inline-*/flex;
+    border-radius: 10px;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.last_box_container{
+    display: grid;
+    align-items: center; /* Add this line */
+    justify-content: center;
+    grid-template-rows: 90px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px !important
+}
+
+.box_container{
+    display: grid;
+    grid-template-rows: 38px 38px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px !important
+}
+
+.box{
+    width: 12rem;
+    height: 13rem;
+    background-color: white;
+    border: 3px solid lightgrey;
+}
+
+.subtitleInfo{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.subtitleInfo3{
+    text-align: center;
+    font-size: 18px;
+}
+
+#LeetCode3{
+    margin-top: 30px !important; /* Increase this value to add space above the link */
+    margin-bottom: 30px !important; /* Add this line to add space below the link */
+    padding-bottom: 10px;
+}
+
+.subtitleInfo2{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -6px;
+    
+}
+
+.contact{
+    display: grid;
+    grid-template-rows: repeat(1, 44px);
+    grid-template-columns: repeat(2, 350px);
+    justify-content: center;
+    overflow: auto; /* Add this line */
+    justify-items: center;
+}
+
+.contactBox{
+   /* width: 40rem; Remove this line */
+    /* height: 3rem; Remove this line */
+    text-align: center; /* Add this line */
+    align-items: center; /* Add this line */
+}
+/*
+#box_container1{
+    display: grid;
+    grid-template-rows: 38px 38px;
+    text-align: center;
+    margin-right: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+*/
+
+
+.subTitle{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-container {
+    display: grid;
+    grid-template-rows: 32px 32px;
+    grid-template-columns: 160px 160px;
+    /* border: 3px solid #f1f1f1; */
+}
+/*
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container li {
+    width: 50%;
+    margin-right: -500px;
+}
+*/
+.flex-container li:nth-child(2n+1) {
+    clear: left;
+}
+
+#slideshowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Adjust this to change the width of the slideshow */
+    margin: auto; /* This will center the slideshow */
+    position: relative; /* This allows us to position the text over the image */
+    height: 660px;
+    
+}
+
+#slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This will stack the children vertically */
+    width: 100%;
+    height: 660px;
+    position: relative;
+}
+
+#scheduleAppGithub{
+    margin-bottom: 10px !important;
+    font-family: 'Proxima Nova', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+#slideshowImage {
+    /*max-width: 80%;*/
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+/*
+#slideshowText {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: 10px;
+}
+*/
+
+#slideshowHeader {
+   /* font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 23px; /* Change the font size */
+    color: black; /* Change the text color */
+    margin-top: 5px;
+}
+
+#slideshowParagraph {
+    /* font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 17px; /* Change the font size */
+    color: #333; /* Change the text color */
+    line-height: 1.6; /* Change the line height */
+}
+
+
+#prevButton, #nextButton {
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 16px; /* Change the font size */
+    /*color: #fff;  Change the text color */
+    /*background-color: #333;  Change the background color */
+    color: black;
+    background: linear-gradient(to bottom right, rgb(112, 219, 255), rgb(241, 72, 241)) no-repeat;
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a hand icon */
+    position: absolute;
+    /*top: 50%;
+    transform: translateY(-50%);*/
+    border-radius: 20px;
+}
+
+#prevButton:hover, #nextButton:hover {
+    background-color: #555; /* Change the background color when hovering */
+}
+
+
+#prevButton, #nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#featuresList, #techUsedList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#infoParagraph {
+    padding: 0 5px;
+}
+
+#prevButton {
+    left: 10px;
+}
+
+#nextButton {
+    right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+.navbar-background {
+    background-color: black;
+    display: inline-block;
+    overflow: hidden;
+    /*background-color: #333;*/
+    border-radius: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:first-child:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dropdown-content a:last-child:hover {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

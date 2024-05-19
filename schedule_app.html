@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Schedule App</title>
+</head>
+<body>
+    <h1>Schedule App</h1>
+    <div class="navbar-background"> <!-- Add this line -->
+        <div class="navbar centered">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/database_app.html">Database App</a>
+                    <a href="/schedule_app.html">Schedule App</a>
+                    <!-- <a href="/to_do_list.html">To Do List</a> -->
+                </div>
+            </div> 
+        </div>
+        </div>
+        <p id="infoParagraph">This is a schedule app for android that I created using Java and the Room framework, which simplifies SQLite. This app allows users to create a school schedule by adding, deleting, updating and viewing terms, courses, and assessments.</p>
+    <h2>Features</h2>
+    <ul id="featuresList">
+        <li>Add terms, courses, and assessments</li>
+        <li>Delete terms, courses, and assessments</li>
+        <li>Update terms, courses, and assessments</li>
+        <li>View terms, courses, and assessments</li>
+    </ul>
+    <h2>Technologies Used</h2>
+    <ul id="techUsedList">
+        <li>Java</li>
+        <li>Room Framework / SQLlite</li>
+        <li>Android Studio</li>
+    </ul>
+    <div id="slideshowContainer">
+    <div id="slideshow">
+        <img id="slideshowImage" src="" alt="Slideshow Image">
+        <h1 id="slideshowHeader"></h1>
+         <p id="slideshowParagraph"></p>
+        <p id="slideshowText"></p>
+        <button id="prevButton">Previous</button>
+        <button id="nextButton">Next</button>
+    </div>
+</div>
+<a href="hhttps://github.com/NathanEzeb/schedule__app" target="_blank" id="scheduleAppGithub">Github Here</a>
+        <script src="scheduleApp.js"></script>
+</body>
+</html>

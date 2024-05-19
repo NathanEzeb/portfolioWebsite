@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <h1>To-Do List</h1>
+    <div class="navbar-background"> <!-- Add this line -->
+        <div class="navbar centered">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/database_app.html">Database App</a>
+                    <a href="/schedule_app.html">Schedule App</a>
+                    <!-- <a href="/to_do_list.html">To Do List</a> -->
+                </div>
+            </div> 
+        </div>
+        </div>
+    <p id="infoParagraph">This is a to-do list app that I created using Kotlin and the Room Framework / SQLlite. This app allows users to add, delete, and update tasks.</p>
+        <h1>Features</h1>
+        <ul id="featuresList">
+            <li>Add tasks</li>
+            <li>Delete tasks</li>
+            <li>Update tasks</li>
+        </ul>
+        <h1>Technologies Used</h1>
+        <ul id="techUsedList">
+            <li>Kotlin</li>
+            <li>Room Framework / SQLlite</li>
+            <li>Android Studio</li>
+        </ul>
+    <script src="toDoList.js"></script>
+</body>
+</html>
